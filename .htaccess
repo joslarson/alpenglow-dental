@@ -4,3 +4,8 @@ Redirect 301 /about.html    /
 Redirect 301 /photos.html   /
 Redirect 301 /news.html     /promotions/
 Redirect 301 /services.html /services/
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
