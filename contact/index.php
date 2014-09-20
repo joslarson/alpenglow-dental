@@ -1,5 +1,7 @@
 <?php
 $PAGE = 'contact';
+$PAGE_TITLE = 'Contact Us | Alpenglow Dental';
+
 include('../_header.php');
 ?>
     <div class="hero"></div>

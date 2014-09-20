@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php if($PAGE != 'mission') echo ucwords($PAGE) . " | "; ?>Alpenglow Dental</title>
+    <title><?php echo $PAGE_TITLE; ?></title>
     <meta name="description" content="We are a dedicated and highly trained team devoted to empowering our friends and neighbors to receive exceptional dental care using advanced technology in a warm and caring atmosphere.">
     <meta name="keywords" content="Dental, Dentist, Whitefish, Implants, Whitening, Montana" />
     <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />

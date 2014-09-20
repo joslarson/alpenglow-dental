@@ -1,5 +1,7 @@
 <?php 
 $PAGE = 'services';
+$PAGE_TITLE = 'Our Services | Alpenglow Dental';
+
 include('../_header.php'); 
 ?>
     <div class="hero"></div>

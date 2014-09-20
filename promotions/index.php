@@ -1,6 +1,9 @@
 <?php 
 $PAGE = 'promotions';
+$PAGE_TITLE = 'Promotions | Alpenglow Dental';
+
 include('../_header.php'); 
+
 ?>
 	<div class="hero"></div>
 	<section>
