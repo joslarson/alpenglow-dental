@@ -1,0 +1,6 @@
+Redirect 301 /contact.html  /contact/
+Redirect 301 /team.html     /
+Redirect 301 /about.html    /
+Redirect 301 /photos.html   /
+Redirect 301 /news.html     /promotions/
+Redirect 301 /services.html /services/
