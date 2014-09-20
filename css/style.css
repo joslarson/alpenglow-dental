@@ -11,15 +11,24 @@ body > header nav a:last-child { line-height: normal; padding: 7px 12px 4px 25px
 
 body > .hero { width: 100%; height: 325px; background: #22696c url('../img/hero.png') no-repeat center; }
 
-body > section { max-width: 750px; padding: 20px 10px; margin: auto; }
-body > section h1 { font-size: 38px; color: #1cb0a8; font-weight: 700; padding: 25px 0; }
+body > section { max-width: 750px; padding: 20px 10px; margin: auto; min-height: 100%; }
+body > section h1 { font-size: 38px; color: #1cb0a8; font-weight: 700; padding-top: 25px; }
 body > section h2 { font-size: 18px; text-transform: uppercase; font-weight: 700; margin-top: 20px }
-body > section blockquote { font-size: 22px; border-left: 6px solid rgb(214, 214, 214); font-weight: 600; padding-left: 20px; line-height: 30px; margin-bottom: 15px; }
+body > section blockquote { font-size: 22px; border-left: 6px solid rgb(214, 214, 214); font-weight: 600; padding-left: 20px; line-height: 30px; margin: 25px 0 15px 0; }
 body > section p { font-size: 18px; line-height: 30px; margin-top: 10px; text-indent: 35px; }
-body > section blockquote a, body > section p a { color: #1cb0a8; }
+body > section a { color: #1cb0a8; }
+body > section dl { line-height: 1.5; font-size: 18px; margin-top: 20px; }
+body > section dl dt { text-transform: uppercase; font-weight: 700; margin-top: 10px; }
+body > section dl dd { border-bottom: solid 1px rgba(0,0,0,.08); padding-bottom: 10px; }
+body > section dl dd:last-child { border-bottom: none; }
+
+body > section .address-wrapper { zoom: 1; margin-bottom: 25px; }
+body > section .address-wrapper:after { content: ''; display: table; clear: both; }
+body > section address { line-height: 1.3; font-size: 18px; float: left; width: 33.3%; }
+body > section iframe { outline: 1px solid rgb(200,200,200); }
 
 
-body > footer { background: rgb(216, 216, 216); min-height: 150px; padding: 25px 0; margin-top: 25px; }
+body > footer { background: rgb(216, 216, 216); min-height: 150px; padding: 25px 0; margin-top: 25px; box-shadow: 0px 200px 0px rgb(216, 216, 216), 0px 400px 0px rgb(216, 216, 216), 0px 600px 0px rgb(216, 216, 216); }
 body > footer .inner-wrapper { max-width: 950px; padding: 0 10px;  margin: auto;  line-height: 25px;  font-size: 14px;  color: rgb(134,134,134); }
 body > footer .left { float: left; }
 body > footer .right { float: right; text-align: right; }

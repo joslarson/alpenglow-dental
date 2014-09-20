@@ -2,12 +2,35 @@
 $PAGE = 'contact';
 include('../_header.php');
 ?>
-	<div class="hero"></div>
-	<section>
-		<h1>Contact Us</h1>
-		<blockquote>We are a dedicated and highly trained team devoted to empowering our friends and neighbors to receive exceptional dental care using advanced technology in a warm and caring atmosphere.</blockquote>
-		<p>In order to become full partners in your oral health, our staff is trained to help you understand your dental condition and to assist you in making decisions about the treatment options available to you.</p>
-		<p>On the telephone, at the front office, and in the dental chair, our well-trained team will focus on you as a unique and significant individual. You can expect first-class, five-star treatment at Alpenglow Dental Care. During your visit, every member of our team will commit to making you feel welcomed and relaxed. Our comprehensive exam will enable you to take an active role in your oral health by explaining treatment options. Our technology and skill encourage a high level of health, well being, and safety. Together, we can achieve the results you want.</p>
-		<p>Learn more about <a href="/services/">services</a>, check out our <a href="/promotions/">promotions</a>, and find answers to some of your questions as you explore our Website. We look forward to supporting your family's dental health goals so <a href="/contact/">give us a call</a> to set up an appointment.</p>
-	</section>
+    <div class="hero"></div>
+    <section>
+        <h1>Contact Us</h1>
+
+        <div class="address-wrapper">
+            <address>
+                <h2>Address</h2>
+                Alpenglow Dental<br/>
+                3000 Hospital Way<br/>
+                Whitefish, MT 59937
+            </address>
+
+            <address>
+                <h2>Phone</h2>
+                (406) 862-3839<br/>
+                (406) 892-5668
+            </address>
+
+            <address>
+            </address>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.0478015261224!2d-114.33093600000001!3d48.3788179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5366429ccde8ca47%3A0x4a1b3301e0aee387!2sAlpenglow+Dental!5e0!3m2!1sen!2sus!4v1411238039890" width="100%" height="500" frameborder="0" style="border:0"></iframe>
+        <script type="text/javascript">$(function(){
+            var iframe = $('iframe');
+            iframe.attr('height', (iframe.outerWidth() * (2/3)));
+            $( window ).resize(function() {
+                iframe.attr('height', (iframe.outerWidth() * (2/3)));
+            });
+        });</script>
+    </section>
 <?php include('../_footer.php'); ?>
