@@ -16,7 +16,7 @@ include('../_header.php');
             <dt>Prompt Care</dt>
                 <dd>We strive to treat our patients with urgent needs immediately.</dd>
             <dt>Nonsurgical Periodontal Care</dt>
-                <dd>Periodontal care is outmost importance to healthy teeth and gums. We provide both periodontal preventative care and non-surgical treatment.</dd>
+                <dd>Periodontal care is of utmost importance to healthy teeth and gums. We provide both periodontal preventative care and non-surgical treatment.</dd>
             <dt>Cosmetic Dentistry</dt>
                 <dd>We can perform bonding, veneers, crowns and bridges to improve the look of your smile.</dd>
             <dt>Whitening</dt>
